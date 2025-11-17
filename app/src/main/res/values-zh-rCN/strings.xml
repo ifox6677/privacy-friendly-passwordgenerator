@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">密码生成器</string>
+    <string name="app_name_long">隐私友好的密码生成器</string>
+
+<string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+<string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+<!-- ###DRAWER###-->
+<string name="action_help">帮助</string>
+<string name="action_about">关于</string>
+<string name="action_settings">设置</string>
+<string name="action_main">主界面</string>
+<string name="action_tutorial">教程</string>
+
+<!--###METADATA_LIST###-->
+<string name="undo">撤销</string>
+<string name="item_deleted">已删除。</string>
+<string name="initial_alert">添加账户</string>
+
+<!--###ADD_METADATA###-->
+<string name="placeholder_no_data" translatable="false">-</string>
+<string name="add_metadata_heading">添加新账户</string>
+<string name="domain">账户名称：</string>
+<string name="username">用户名：</string>
+<string name="username_optional">用户名（可选）：</string>
+<string name="characterset_add">密码将由以下字符组成：</string>
+<string name="special_characters">特殊字符 (+!#)</string>
+<string name="letters_upper">大写字母 (ABC)</string>
+<string name="letters_lower">小写字母 (abc)</string>
+<string name="numbers">数字 (123)</string>
+<string name="length">长度： </string>
+<string name="iteration">版本： </string>
+<string name="add_domain_message">请输入账户名称。</string>
+<string name="add_character_message">请选择至少一种字符类型。</string>
+<string name="change_version_closed"> 更改版本</string>
+<string name="change_version_opened">▼ 更改版本</string>
+<string name="current_version">当前密码版本： </string>
+
+<string name="add">添加</string>
+<string name="cancel">取消</string>
+
+<!--###UPDATE_METADATA###-->
+<string name="characterset">字符集：</string>
+<string name="old_password">旧密码：</string>
+<string name="new_password">新密码：</string>
+<string name="master_password_description">生成旧密码和新密码需要主密码。</string>
+<string name="next">下一步</string>
+<string name="save">保存</string>
+
+<string name="old_version">旧密码版本为 %s。</string>
+<string name="new_version">新版本将为 </string>
+<string name="added_message">账户已更新。</string>
+<string name="canceled_message">更新已取消。</string>
+
+<string name="add_new_metadata_heading">1. 更新账户</string>
+<string name="passwords_heading">2. 您的密码</string>
+
+<string name="copy_clipboar_old">旧密码已复制。</string>
+<string name="copy_clipboar_new">新密码已复制。</string>
+
+<!--####VERSION_INFO####-->
+<string name="dialog_version_title">什么是密码版本？</string>
+<string name="dialog_version">密码版本是一个数字，用于指示账户已生成的密码数量。即使主密码或其他账户数据未发生变化，它也可用于生成不同的密码。</string>
+
+<!--###GENERATOR###-->
+<string name="generate_heading">生成密码</string>
+<string name="generate">生成</string>
+<string name="master_password_heading">主密码：</string>
+<string name="enter_masterpassword">请输入主密码。</string>
+<string name="masterpassword_length">请输入至少 8 个字符。</string>
+<string name="password">您的密码：</string>
+<string name="init_password"></string>
+<string name="done">完成</string>
+<string name="password_copied">密码已复制。</string>
+
+<!--###ABOUT###-->
+<string name="about">关于</string>
+<string name="version_number">版本</string>
+<string name="about_author">作者： </string>
+<string name="about_author_names" translatable="false">Karola Marky</string>
+<string name="about_author_contributors">和贡献者。</string>
+<string name="about_affiliation">隶属于</string>
+<string name="privacy_friendly">此应用属于由 Karlsruhe Institute of Technology 开发的 Privacy Friendly Apps 组。源代码根据 GPLv3 许可。图像版权归 KIT 和 Google Inc。</string>
+<string name="more_info">更多信息可以在以下位置找到：</string>
+<string name="github" translatable="false"><a href="https://github.com/SecUSo/privacy-friendly-passwordgenerator">GitHub 仓库</a></string>
+<string name="url" translatable="false"><a href="https://www.secuso.org/pfa">SECUSO 网站</a></string>
+
+<!--###HELP###-->
+<string name="help">帮助</string>
+
+<string name="help_overview">什么是隐私友好的密码生成器？</string>
+<string name="help_overview_answer">隐私友好的密码生成器可为您的所有账户生成唯一密码。生成后，您需手动将密码输入到网站或服务中。</string>
+
+<string name="help_generation">如何生成密码？</string>
+<string name="help_generation_answer">要生成密码，请从列表中选择一个账户并点击它。输入主密码，然后按“生成”按钮。随后，可通过手动输入或使用剪贴板将密码复制到网站或服务中。</string>
+<string name="help_parameter_set_heading">什么是账户？</string>
+<string name="help_parameter_set_answer">网站提供商通常使用密码组成策略。这些策略指导密码选择，并可能要求密码具有特定特征，如最小长度。账户描述了生成密码的属性。</string>
+<string name="help_which_parameters_heading">可以选择密码的哪些属性？</string>
+<string name="help_which_parameters_domain">账户名称是密码所用网站或项目的引用。</string>
+<string name="help_which_parameters_username">可选用户名可用于区分同一账户名称下的不同用户。</string>
+<string name="help_which_parameters_characterset">字符集指定应包含在密码中的字符类型。网站通常对密码字符集有推荐要求。</string>
+<string name="help_which_parameters_length">密码长度可在 4 到 25 之间选择。</string>
+<string name="help_which_parameters_password_counter">密码版本用于在更新时使用相同账户数据生成不同密码。默认值为 1。每次更新时计数器递增 1，但也可手动更改。</string>
+
+<string name="help_manage_add_heading">如何添加账户？</string>
+<string name="help_manage_add_description">按加号按钮添加新账户。</string>
+<string name="help_manage_update_heading">如何更新账户？</string>
+<string name="help_manage_update_description">长按列表项目更新账户设置。</string>
+<string name="help_manage_delete_heading">如何删除账户？</string>
+<string name="help_manage_delete_description">向一侧滑动删除账户设置。</string>
+
+<string name="help_generation_heading">密码是如何生成的？</string>
+<string name="help_generation_description">密码由两种哈希算法组合生成：PBKDF2 和 BCrypt。主密码作为两种算法的密钥。盐值从账户数据派生。如果在设置中启用，还会添加安装盐（首次启动时生成）。</string>
+
+<string name="help_password_storage_heading">密码是否存储在设备上？</string>
+<string name="help_password_storage_description">否。密码或主密码都不会存储在设备上。只有账户数据和安装盐存储在您的设备上。</string>
+
+<string name="help_data_backup_heading">是否有备份数据的方法？</string>
+<string name="help_data_backup_description">是的。您可以使用 Privacy Friendly Backup 应用备份账户数据和安装盐，从而将数据传输到另一设备。</string>
+
+<string name="help_permissions_heading">隐私友好的密码生成器需要哪些权限？</string>
+<string name="help_permissions_description">隐私友好的密码生成器不需要任何权限。</string>
+
+<!-- ###SETTINGS### -->
+<string name="title_reset_list">删除所有账户</string>
+<string name="delete_dialog">您真的要删除所有账户吗？</string>
+<string name="delete_dialog_success">所有账户已删除。</string>
+
+<string name="title_activity_settings">设置</string>
+<string name="title_bind_password">将所有密码绑定到此安装</string>
+<string name="summary_bind_password">这将基于此设备创建唯一密码。如果使用另一设备或重新安装应用，无法重新生成密码。因此，我们强烈建议如果使用此选项，请使用 Privacy Friendly Backup 应用备份此应用的数据。否则，如果丢失设备，将无法重新生成密码。</string>
+<string name="title_clipboard">将密码复制到剪贴板</string>
+<string name="summary_clipboard">所有其他应用均可访问剪贴板上的密码。</string>
+
+<string name="title_expert_mode">专家模式</string>
+<string name="expert_mode_summary">更改 Bcrypt 成本参数将生成不同的密码。较高值会增加生成密码的时间，从而使攻击者更难破解。通过基准测试功能，您可以测试当前设置下生成密码所需时间。默认值为 10。</string>
+<string name="title_hash_iterations">PBKDF2：哈希迭代次数</string>
+
+<string name="title_benchmark">基准测试：生成</string>
+<string name="summary_benchmark">测试基于给定算法和迭代的生成持续时间。</string>
+
+<string name="title_hash_algorithms">PBKDF2：哈希算法</string>
+<string-array name="pref_hash_algorithms" translatable="false">
+    <item>SHA256</item>
+    <item>SHA384</item>
+    <item>SHA512</item>
+</string-array>
+<string name="default_hash_algorithm" translatable="false">SHA256</string>
+
+<string-array name="pref_iterations" translatable="false">
+    <item>1000</item>
+    <item>2000</item>
+    <item>3000</item>
+    <item>4000</item>
+    <item>5000</item>
+    <item>6000</item>
+    <item>7000</item>
+    <item>8000</item>
+    <item>9000</item>
+    <item>10000</item>
+</string-array>
+<string name="default_iterations" translatable="false">10000</string>
+
+<string name="title_bcrypt_cost">Bcrypt：成本参数</string>
+<string-array name="pref_bcrypt_cost" translatable="false">
+    <item>10</item>
+    <item>11</item>
+    <item>12</item>
+    <item>13</item>
+    <item>14</item>
+    <item>15</item>
+    <item>16</item>
+    <item>17</item>
+</string-array>
+<string name="default_bcrypt_cost" translatable="false">10</string>
+
+<!-- ###DIALOGS### -->
+<string name="okay">确定</string>
+
+<!-- ###BENCHMARK### -->
+<string name="dialog_start_benchmark">开始</string>
+<string name="dialog_start_benchmark_hint">请开始基准测试。</string>
+<string name="dialog_benchmark_title">基准测试</string>
+<string name="dialog_benchmark_seconds">秒</string>
+<string name="dialog_benchmark_time">生成大约需要</string>
+
+<!-- ##TUTORIAL_DIALOG-->
+<string name="skip">跳过</string>
+<string name="start">明白了</string>
+
+<string name="slide_1_title">欢迎！</string>
+<string name="slide_1_desc">使用隐私友好的密码生成器，您可以为所有账户生成不同密码，只需记住一个主密码。</string>
+
+<string name="slide_2_title">生成密码</string>
+<string name="slide_2_desc_one">从列表中选择一个账户。 </string>
+<string name="slide_2_desc_two">想出一个主密码作为初始密钥。基于此主密码生成所有其他密码。</string>
+<string name="slide_2_desc_three">将生成的密码复制到网站或服务中。</string>
+
+<string name="slide_3_title">账户</string>
+<string name="slide_3_desc_one">网站提供商通常使用密码组成策略。</string>
+<string name="slide_3_desc_two">这些策略指导密码选择，并可能要求创建具有特定特征的密码，如最小长度。 </string>
+<string name="slide_3_desc_three">密码的特征可在账户中设置。</string>
+
+<string name="slide_4_title">管理账户</string>
+<string name="slide_4_desc_one">使用加号按钮添加新账户。</string>
+<string name="slide_4_desc_two">长按更新账户。 </string>
+<string name="slide_4_desc_three">从右向左滑动删除账户。</string>
+
+<string name="slide_mp_title">主密码</string>
+<string name="slide_mp_desc_one">主密码是您唯一需要记住的密码。</string>
+<string name="slide_mp_desc_two">基于它生成所有其他密码。 </string>
+<string name="slide_mp_desc_three">主密码不在应用中存储。如果丢失它，则需重置所有密码。</string>
+<string name="slide_mp_desc_four">如果愿意，可将其写下来并保存在安全处。</string>
+
+<string name="slide_mp2_title">主密码提示</string>
+<string name="slide_mp2_desc_one">不要包含个人信息（如生日）。</string>
+<string name="slide_mp2_desc_two">不要使用键盘上的字符序列。 </string>
+<string name="slide_mp2_desc_three">尽量让它尽可能长。</string>
+
+<!-- ##IMAGE_DESCRIPTIONS-->
+<string name="app_logo">应用标志</string>
+
+<!-- ##SEARCH-->
+<string name="search_parameter_label">搜索</string>
+
+<!-- ##SAMPLE DATA-->
+<string name="sample_domain1">sample.email.com</string>
+<string name="sample_username1">sample.name@email.com</string>
+<string name="sample_domain2">sample-domain.de</string>
+<string name="sample_username2">Sample Username</string>
+<string name="sample_domain3"> Sample PIN</string>
+<string name="sample_username3">-</string></resources>
+
